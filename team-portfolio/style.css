@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Slabo+27px&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkturquoise;
+    .slabo-27px-regular {
+        font-family: "Slabo 27px", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+
+.wrapper{
+    margin-top: 10%;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center; 
+    font-size: 60px;
+    margin-bottom: 70px;
+    color: #020a0e;
+}
+      
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member{
+    background-color: white;
+    margin: 40px;
+    margin-bottom: 50px;
+    width:300px ;
+    padding: 20px;
+    line-height: 30px;
+    color: rgb(51, 83, 116);
+    position: relative;
+}
+
+.name{
+    color: darkturquoise;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.role{
+    color: rgb(137, 172, 174);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 5px;
+}
+
+/* .team_image{
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+}
+
+.img{
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+} */
